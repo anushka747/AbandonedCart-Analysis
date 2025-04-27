@@ -1,41 +1,32 @@
-# 🛒 Abandoned Cart Analysis – Olist E-Commerce Data
+**📦 Olist Abandoned Cart Analysis**
+This project analyzes the Olist E-commerce dataset to uncover customer purchase patterns, cart abandonment behavior, and delivery performance.
+Through exploratory data analysis (EDA) and visualizations, we derive actionable business insights to optimize sales and operations.
 
-## 📌 Project Overview
-This project analyzes customer behavior from a real-world Brazilian e-commerce dataset (Olist) to identify products and customers associated with **abandoned carts**.
+**✨ Key Highlights**
+Analyzed over 9 CSV files including customers, orders, products, payments, and reviews datasets.
+Identified seasonal sales patterns and peak ordering months.
+Evaluated top-selling product categories and average purchase value.
+Analyzed average delivery times and factors impacting cart abandonment.
+Visualized insights using Matplotlib and Seaborn.
+Generated business recommendations for better inventory and logistics management.
 
-## 💡 Key Questions Answered
-- Which products are most frequently abandoned?
-- Which customers abandon the most orders?
-- What's the potential lost revenue from abandoned carts?
+**🛠 Tools Used**
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
 
-## 📊 Key Insights
-- Most abandoned products fall under categories like **beauty**, **fashion accessories**, and **home decor**.
-- Over **5,000+ unique customers** abandoned at least one order.
-- The **average abandoned product price** is ₹XX (update with your result).
-- Top 10 customers account for a large portion of abandoned orders.
+**📈 Outcome**
+Increased understanding of customer behavior.
+Strategic insights for reducing cart abandonment rates.
+Data-driven decision support for Olist’s business growth.
 
-## 📁 Files Included
-- `AbandonedCart_Analysis.ipynb`: Jupyter notebook with full EDA & visualizations
-- `abandoned_cart_data.csv`: Cleaned & merged dataset (optional)
-- `charts/`: (Optional) Save your visual screenshots here
-- `README.md`: This file
+**🔗 How to Use**
+Download the notebook and datasets.
+Run the notebook in Jupyter to explore the analysis.
+View the saved .png visualizations for quick reference.
 
-## 🛠 Tech Stack
-- Python (Pandas, Seaborn, Matplotlib)
-- Jupyter Notebook
-
-## 🎯 Project Type
-- Exploratory Data Analysis (EDA)
-- Business Insight / Behavioral Analysis
-
-## 📊 Sample Visuals
-
-### 🔹 Top 10 Abandoned Categories
-![Top Categories](charts/top_categories.png)
-
-### 🔹 Price Distribution of Abandoned Products
-![Price Distribution](charts/price_distribution.png)
-
----
-
-**⭐ Star this repo if you found it useful or insightful!**
+**Requirements**
+pip install pandas numpy matplotlib seaborn
