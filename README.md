@@ -1,4 +1,6 @@
 **📦 Olist Abandoned Cart Analysis**
+
+
 This project analyzes the Olist E-commerce dataset to uncover customer purchase patterns, cart abandonment behavior, and delivery performance.
 Through exploratory data analysis (EDA) and visualizations, we derive actionable business insights to optimize sales and operations.
 
